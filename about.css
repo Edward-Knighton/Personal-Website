@@ -5,31 +5,35 @@
 
 }
 h1 {
-	float: left;
-	position: sticky;
-		top: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
 	background: #8ACDEA;
 		background-attachment: fixed;
+	overflow-x: hidden;
 	width: 25%;
 	height: 100%;
 	text-align: center;
-		font: 32px/2 Courier, serif;
+		font: 2em/1 Courier, serif;
 		color: #B2FF9E;
 }
 
-.left_side {
+.side_nav {
 	padding-top: 50%;
 
 }
 
-a {
+.side_nav a {
+	display: block;
 	color: #746D75;
 	text-decoration: none;
 } 
 
 
-a:hover {
-	color: #800000;
+.side_nav a:hover {
+	background-color: #800000;
+	color: #EDE6F2;
 } 
 
 h2 {
@@ -39,18 +43,39 @@ h2 {
 	background: #EDE6F2;
 }
 .right_side {
-	font: 32px/2 Courier New, serif;
+	font: 2em/2 Courier New, serif;
 		color: #9E643C; 
 		text-align: center;
 }
 
 #intro {
-	font: 48px/2 Courier, serif;
-	padding: 60px;
+	font: bold 4em/2 Courier, serif;
+	padding-top: 8%;
+	padding-bottom: 7%
 }
 
 #professional_photo {
 	padding-top: 60px;
+}
+
+#about_header {
+	font: bold 3em/2 Courier, serif;
+		padding-bottom: 5%
+}
+
+#about_text {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 30%
+}
+
+#resume_header {
+	font: bold 3em/2 Courier, serif;
+}
+
+#resume_text {
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 body {
