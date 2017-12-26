@@ -1,0 +1,60 @@
+.photo {
+	border-radius: 50%;
+	border: 4px solid #9E643C;
+	width: 40%
+
+}
+h1 {
+	float: left;
+	position: sticky;
+		top: 0;
+	background: #8ACDEA;
+		background-attachment: fixed;
+	width: 25%;
+	height: 100%;
+	text-align: center;
+		font: 32px/2 Courier, serif;
+		color: #B2FF9E;
+}
+
+.left_side {
+	padding-top: 50%;
+
+}
+
+a {
+	color: #746D75;
+	text-decoration: none;
+} 
+
+
+a:hover {
+	color: #800000;
+} 
+
+h2 {
+	float: right;
+	width: 75%;
+	height: 100%;
+	background: #EDE6F2;
+}
+.right_side {
+	font: 32px/2 Courier New, serif;
+		color: #9E643C; 
+		text-align: center;
+}
+
+#intro {
+	font: 48px/2 Courier, serif;
+	padding: 60px;
+}
+
+#professional_photo {
+	padding-top: 60px;
+}
+
+body {
+	background: #EDE6F2;
+}
+
+        
