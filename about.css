@@ -1,9 +1,12 @@
-.photo {
-	border-radius: 50%;
-	border: 4px solid #9E643C;
-	width: 40%
-
+ul {
+	list-style-type: circle;
+	padding-bottom: 15px;
 }
+
+li {
+	padding-bottom: 5px;
+}
+
 h1 {
 	position: fixed;
 	z-index: 1;
@@ -17,6 +20,13 @@ h1 {
 	text-align: center;
 		font: 2em/1 Courier, serif;
 		color: #B2FF9E;
+}
+
+.photo {
+	border-radius: 50%;
+	border: 4px solid #800000;
+	width: 40%
+
 }
 
 .side_nav {
@@ -44,12 +54,64 @@ h2 {
 }
 .right_side {
 	font: 2em/2 Courier New, serif;
-		color: #9E643C; 
+
+}
+
+.right_side_header {
+	font: bold 3em/2 Courier, serif;
+		color: #800000; 
 		text-align: center;
 }
 
+.right_side_text {
+	font: 2em/2 Courier New, serif;
+		color: #800000; 
+		text-align: center;
+}
+
+.right_side_link {
+	color: #800000;
+	text-decoration: none;
+}
+
+.right_side_link:hover {
+	text-decoration: underline;
+} 
+
+.right_side_resume_company {
+	font: 2em/1.5 Courier New, serif;
+		color: #800000; 
+		text-align: left;
+	border-top: 2px solid #800000;
+	margin-left: 5%;
+	margin-right: 20px;
+	padding-top: 5px
+	/*padding-left: 5%;
+	padding-right: 5%;*/
+}
+
+.right_side_resume_job {
+	font: 1.5em/1.5 Courier New, serif;
+		color: #800000; 
+		text-align: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 1%
+}
+
+.right_side_resume_detail {
+	font: 1.25em/1.25 Courier New, serif;
+		color: #800000; 
+		text-align: left;
+	padding-left: 7%;
+	padding-right: 5%;
+}
+
+
 #intro {
 	font: bold 4em/2 Courier, serif;
+		color: #800000; 
+		text-align: center;
 	padding-top: 8%;
 	padding-bottom: 7%
 }
@@ -59,7 +121,6 @@ h2 {
 }
 
 #about_header {
-	font: bold 3em/2 Courier, serif;
 		padding-bottom: 5%
 }
 
@@ -69,13 +130,21 @@ h2 {
 	padding-bottom: 30%
 }
 
-#resume_header {
-	font: bold 3em/2 Courier, serif;
+#resume_skills {
+	padding-left: 7%;
 }
 
 #resume_text {
 	padding-left: 10%;
 	padding-right: 10%;
+}
+
+#contact_header {
+	margin-top: 10%;
+}
+
+#contact_links {
+	padding-bottom: 10%;
 }
 
 body {
