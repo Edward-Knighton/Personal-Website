@@ -18,7 +18,7 @@ h1 {
 	width: 25%;
 	height: 100%;
 	text-align: center;
-		font: 2em/1 Courier, serif;
+		font: 2em/1 Verdana, serif;
 		color: #B2FF9E;
 }
 
@@ -42,9 +42,22 @@ h1 {
 
 
 .side_nav a:hover {
-	background-color: #F7F3E3;
-	color: #2B2118;
+	/*background-color: #F7F3E3;
+	color: #800000;*/
+	opacity: 0.7;
 } 
+
+.fa {
+	color: #F7F3E3;
+	font-size: 2em;
+	padding 2%;
+	text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
 
 h2 {
 	float: right;
@@ -53,18 +66,18 @@ h2 {
 	background: #F7F3E3;
 }
 .right_side {
-	font: 2em/2 Courier New, serif;
+	font: 2em/2 Verdana, serif;
 
 }
 
 .right_side_header {
-	font: bold 3em/2 Courier, serif;
+	font: bold 3em/2 Verdana, serif;
 		color: #2B2118; 
 		text-align: center;
 }
 
 .right_side_text {
-	font: 2em/2 Courier New, serif;
+	font: 2em/2 Verdana, serif;
 		color: #2B2118; 
 		text-align: center;
 }
@@ -79,7 +92,7 @@ h2 {
 } 
 
 .right_side_resume_company {
-	font: 2em/1.5 Courier New, serif;
+	font: 2em/1.5 Verdana, serif;
 		color: #2B2118; 
 		text-align: left;
 	border-top: 2px solid #2B2118;
@@ -91,7 +104,7 @@ h2 {
 }
 
 .right_side_resume_job {
-	font: 1.5em/1.5 Courier New, serif;
+	font: 1.5em/1.5 Verdana, serif;
 		color: #2B2118; 
 		text-align: left;
 	padding-left: 5%;
@@ -100,7 +113,7 @@ h2 {
 }
 
 .right_side_resume_detail {
-	font: 1.25em/1.25 Courier New, serif;
+	font: 1.25em/1.25 Verdana, serif;
 		color: #2B2118; 
 		text-align: left;
 	padding-left: 7%;
@@ -109,7 +122,7 @@ h2 {
 
 
 #intro {
-	font: bold 4em/2 Courier, serif;
+	font: bold 3em/2 Verdana, serif;
 		color: #2B2118; 
 		text-align: center;
 	padding-top: 8%;
