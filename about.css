@@ -15,7 +15,7 @@ h1 {
 	background: #800000;
 		background-attachment: fixed;
 	overflow-x: hidden;
-	width: 25%;
+	width: 20%;
 	height: 100%;
 	text-align: center;
 		font: 2em/1 Verdana, serif;
@@ -24,7 +24,7 @@ h1 {
 
 .photo {
 	border-radius: 50%;
-	border: 4px solid #2B2118;
+	border: 4px solid #000000;
 	width: 40%
 
 }
@@ -36,19 +36,19 @@ h1 {
 
 .side_nav a {
 	display: block;
-	color: #F7F3E3;
+	color: #ffffff;
 	text-decoration: none;
 } 
 
 
 .side_nav a:hover {
-	/*background-color: #F7F3E3;
+	/*background-color: #ffffff;
 	color: #800000;*/
 	opacity: 0.7;
 } 
 
 .fa {
-	color: #F7F3E3;
+	color: #ffffff;
 	font-size: 2em;
 	padding 2%;
 	text-align: center;
@@ -61,9 +61,9 @@ h1 {
 
 h2 {
 	float: right;
-	width: 75%;
+	width: 80%;
 	height: 100%;
-	background: #F7F3E3;
+	background: #ffffff;
 }
 .right_side {
 	font: 2em/2 Verdana, serif;
@@ -72,18 +72,18 @@ h2 {
 
 .right_side_header {
 	font: bold 3em/2 Verdana, serif;
-		color: #2B2118; 
+		color: #000000; 
 		text-align: center;
 }
 
 .right_side_text {
 	font: 2em/2 Verdana, serif;
-		color: #2B2118; 
+		color: #000000; 
 		text-align: center;
 }
 
 .right_side_link {
-	color: #2B2118;
+	color: #000000;
 	text-decoration: none;
 }
 
@@ -93,9 +93,9 @@ h2 {
 
 .right_side_resume_company {
 	font: 2em/1.5 Verdana, serif;
-		color: #2B2118; 
+		color: #000000; 
 		text-align: left;
-	border-top: 2px solid #2B2118;
+	border-top: 2px solid #000000;
 	margin-left: 5%;
 	margin-right: 20px;
 	padding-top: 5px
@@ -105,7 +105,7 @@ h2 {
 
 .right_side_resume_job {
 	font: 1.5em/1.5 Verdana, serif;
-		color: #2B2118; 
+		color: #000000; 
 		text-align: left;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -114,7 +114,7 @@ h2 {
 
 .right_side_resume_detail {
 	font: 1.25em/1.25 Verdana, serif;
-		color: #2B2118; 
+		color: #000000; 
 		text-align: left;
 	padding-left: 7%;
 	padding-right: 5%;
@@ -123,13 +123,13 @@ h2 {
 
 #intro {
 	font: bold 3em/2 Verdana, serif;
-		color: #2B2118; 
+		color: #000000; 
 		text-align: center;
 	padding-top: 8%;
 	padding-bottom: 7%
 }
 
-#professional_photo {
+#home {
 	padding-top: 60px;
 }
 
@@ -161,7 +161,7 @@ h2 {
 }
 
 body {
-	background: #F7F3E3;
+	background: #ffffff;
 }
 
         
