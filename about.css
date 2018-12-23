@@ -38,14 +38,14 @@ h1 {
 	display: block;
 	color: #ffffff;
 	text-decoration: none;
-} 
+}
 
 
 .side_nav a:hover {
 	/*background-color: #ffffff;
 	color: #800000;*/
 	opacity: 0.7;
-} 
+}
 
 .fa {
 	color: #ffffff;
@@ -69,31 +69,46 @@ h2 {
 	font: 2em/2 Verdana, serif;
 
 }
-
+h7{
+	color:#333;
+	font-size:1.3em;
+	margin-bottom:3px;
+	font-weight:600;
+}
 .right_side_header {
-	font: bold 3em/2 Verdana, serif;
-		color: #000000; 
+	font: bold 1.75em/2 Verdana, serif;
+		color: #000000;
 		text-align: center;
 }
 
 .right_side_text {
-	font: 2em/2 Verdana, serif;
-		color: #000000; 
+	font: 1.25em/2 Verdana, serif;
+		color: #000000;
 		text-align: center;
 }
 
 .right_side_link {
 	color: #000000;
 	text-decoration: none;
+	font-size: .8em;
+}
+
+.right_side_resume_link {
+	color: #000000;
+	text-decoration: none;
+	font: .25em/2;
+	text-align: center;
+	padding-left: 44%;
+	padding-right: 36%
 }
 
 .right_side_link:hover {
 	text-decoration: underline;
-} 
+}
 
 .right_side_resume_company {
 	font: 2em/1.5 Verdana, serif;
-		color: #000000; 
+		color: #000000;
 		text-align: left;
 	border-top: 2px solid #000000;
 	margin-left: 5%;
@@ -105,7 +120,7 @@ h2 {
 
 .right_side_resume_job {
 	font: 1.5em/1.5 Verdana, serif;
-		color: #000000; 
+		color: #000000;
 		text-align: left;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -114,19 +129,36 @@ h2 {
 
 .right_side_resume_detail {
 	font: 1.25em/1.25 Verdana, serif;
-		color: #000000; 
+		color: #000000;
 		text-align: left;
 	padding-left: 7%;
 	padding-right: 5%;
 }
 
+.right_side_pdf_link {
+	color: #000000;
+	text-decoration: none;
+	font: 1.25em/1.25 Verdana, serif;
+		color: #000000;
+		text-align: center;
+}
+
+.right_side_pdf_link:hover {
+	text-decoration: underline;
+}
+
 
 #intro {
-	font: bold 3em/2 Verdana, serif;
-		color: #000000; 
+	font: bold 2em/2 Verdana, serif;
+		color: #000000;
 		text-align: center;
-	padding-top: 8%;
+	padding-top: 3%;
 	padding-bottom: 7%
+}
+
+#project_Link {
+	font-size:.8em;
+	color: #606060;
 }
 
 #home {
@@ -157,11 +189,9 @@ h2 {
 }
 
 #contact_links {
-	padding-bottom: 10%;
+	padding-bottom: 1em;
 }
 
 body {
 	background: #ffffff;
 }
-
-        
